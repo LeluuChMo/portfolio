@@ -1,0 +1,33 @@
+@media (max-width: 768px) {
+  nav a {
+    display: none;
+  }
+  .header-box {
+    justify-content: center;
+  }
+}
+@media (max-width: 1024px) {
+  .introduction-box {
+    flex-direction: column-reverse;
+  }
+  .introduction {
+    margin-top: 70px;
+    text-align: center;
+  }
+  .introduction p {
+    font-size: 20px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  .social-media {
+    justify-content: center;
+  }
+  .social-media img {
+    width: 25px;
+  }
+  .intro-photo img {
+    width: 300px;
+    height: 300px;
+  }
+}
