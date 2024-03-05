@@ -5,13 +5,26 @@
   .header-box {
     justify-content: center;
   }
+  .about {
+    margin-top: 30px;
+  }
+  .about-p {
+    margin: 0%;
+  }
+  .about-p p {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .skill-icons {
+    flex-wrap: wrap;
+  }
 }
 @media (max-width: 1024px) {
   .introduction-box {
     flex-direction: column-reverse;
   }
   .introduction {
-    margin-top: 70px;
+    margin-top: 50px;
     text-align: center;
   }
   .introduction p {
