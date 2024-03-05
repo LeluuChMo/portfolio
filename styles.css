@@ -106,3 +106,61 @@ h1 span {
   border-radius: 50%;
   object-fit: contain;
 }
+.about {
+  margin-top: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+h2 {
+  color: #3a4d39;
+  font-size: 45px;
+  font-family: "kanit-medium", sans-serif;
+  text-align: center;
+}
+.about-p {
+  background-color: #4f6f52;
+  color: #ece3ce;
+  border: 2px solid #ece3ce;
+  margin-top: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+  font-family: "kanit-regular", sans-serif;
+}
+.about-p p {
+  margin: 5%;
+  font-size: 20px;
+}
+.more-button {
+  width: 150px;
+  height: 50px;
+  margin-bottom: 5%;
+  font-size: 18px;
+  font-family: "kanit-medium", sans-serif;
+  color: #3a4d39;
+  border: none;
+}
+.more-button:hover {
+  color: #ece3ce;
+  background-color: #739072;
+  cursor: pointer;
+}
+.skills {
+  margin-top: 50px;
+}
+.skill-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 50px;
+}
+.skill-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 2px solid #4f6f52;
+}
+.skill-icon img {
+  width: 100px;
+}
