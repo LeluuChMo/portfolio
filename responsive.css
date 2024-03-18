@@ -18,6 +18,10 @@
   .skill-icons {
     flex-wrap: wrap;
   }
+  .info {
+    font-size: 20px;
+    text-align: center;
+  }
 }
 @media (max-width: 1024px) {
   .introduction-box {
@@ -37,9 +41,16 @@
     justify-content: center;
   }
   .social-media img {
-    width: 25px;
+    width: 40px;
   }
   .intro-photo img {
+    width: 300px;
+    height: 300px;
+  }
+  .about-info {
+    flex-wrap: wrap;
+  }
+  .info-photo img {
     width: 300px;
     height: 300px;
   }
