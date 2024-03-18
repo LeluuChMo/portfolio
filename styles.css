@@ -164,3 +164,108 @@ h2 {
 .skill-icon img {
   width: 100px;
 }
+.about-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 120px;
+  gap: 50px;
+}
+.info-photo img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  object-fit: contain;
+}
+.info-photo:hover {
+  scale: 0.9;
+  transition-duration: 1s;
+}
+.info {
+  color: #3a4d39;
+  font-size: 30px;
+  font-family: "kanit-regular", sans-serif;
+}
+.info p {
+  gap: 50px;
+}
+.info span {
+  color: #4f6f52;
+}
+.short-story-header {
+  margin-top: 50px;
+}
+.skills p {
+  color: #3a4d39;
+  font-size: 20px;
+  font-family: "kanit-medium", sans-serif;
+}
+.smart-academy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 70px;
+}
+.smart-academy-logo:hover {
+  scale: 0.9;
+  transition-duration: 1s;
+}
+.smart-academy-logo {
+  width: 500px;
+  height: auto;
+  background-color: #000;
+}
+.smart-academy-logo img {
+  padding: 20px;
+}
+footer {
+  background-color: #3a4d39;
+  margin-top: 70px;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+}
+.left-side-info {
+  width: 600px;
+}
+h3 {
+  color: #739072;
+  font-family: "kanit-semibold", sans-serif;
+  font-size: 100px;
+}
+.left-side-info p {
+  color: #ece3ce;
+  font-family: "kanit-regular", sans-serif;
+  font-size: 20px;
+}
+.left-side-info p a {
+  color: #739072;
+  text-decoration: none;
+}
+.left-side-info p a:hover {
+  color: #4f6f52;
+}
+.footer-media {
+  display: flex;
+  justify-content: end;
+  gap: 20px;
+}
+.icons {
+  color: #ece3ce;
+}
+.icons:hover {
+  color: #739072;
+}
+.powered-by {
+  text-align: center;
+  font-size: 20px;
+  font-family: "kanit-regular", sans-serif;
+}
+.powered-by span {
+  color: green;
+}
